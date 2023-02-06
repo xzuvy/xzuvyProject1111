@@ -11,7 +11,7 @@ import SwiftUI
 struct xzuvyProject1111App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
