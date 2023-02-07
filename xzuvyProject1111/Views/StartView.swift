@@ -11,6 +11,7 @@ struct StartView: View {
         @State var login = ""
         @State var password = ""
         @State var infoView = false
+        @State var mainView = false
         var body: some View {
             VStack{
                 HStack{
@@ -34,12 +35,15 @@ struct StartView: View {
             .fullScreenCover(isPresented: $infoView, content: {
                 InfoView()
             })
+            .fullScreenCover(isPresented: $mainView) {
+                MainView()
+            }
             
         }
         
         var loginButton : some View{
             Button {
-                print("something")
+                mainView.toggle()
             } label: {
                 Image(systemName: "arrow.right.square")
                     .resizable()
