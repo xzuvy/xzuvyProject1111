@@ -16,6 +16,7 @@ struct MainView: View {
                     .font(.custom("AvenirNext-Bold", size: 30))
                     .foregroundColor(.white)
                 HStack{
+    
                     charactersOfSerial
                     gameOfWords
                     memorizeGame
@@ -37,16 +38,16 @@ struct MainView: View {
     
     var charactersOfSerial : some View{
         VStack{
-            Button {
-                print("")
-            } label: {
-                Image("vikings")
-                    .resizable()
-                    .frame(width: 100 , height: 100)
-                    .padding()
-                Text("lalala")
-                    .foregroundColor(.white)
-            }
+                Button {
+                    print("")
+                } label: {
+                    Image("vikings")
+                        .resizable()
+                        .frame(width: 100 , height: 100)
+                        .padding()
+
+                }
+
         }
         
 

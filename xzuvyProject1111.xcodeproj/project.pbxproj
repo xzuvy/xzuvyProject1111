@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659CAB1299386A300D31ADA /* UserAddingView.swift */; };
 		568C4C252991840F002E8925 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C4C242991840F002E8925 /* InfoView.swift */; };
 		568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */; };
 		568C4C2929918E75002E8925 /* githubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C2829918E75002E8925 /* githubIcon.png */; };
@@ -16,6 +17,7 @@
 		56963DAA29927C5B00238E54 /* vikings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56963DA929927C5B00238E54 /* vikings.jpg */; };
 		56963DAC29927D2700238E54 /* gameofwords.png in Resources */ = {isa = PBXBuildFile; fileRef = 56963DAB29927D2700238E54 /* gameofwords.png */; };
 		56963DAE29927EFA00238E54 /* memorize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56963DAD29927EFA00238E54 /* memorize.jpg */; };
+		56E6C7E72993898B0002874E /* backgroundAdding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56E6C7E62993898B0002874E /* backgroundAdding.jpg */; };
 		56F9A00A29917E7600E80BBD /* xzuvyProject1111App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9A00929917E7600E80BBD /* xzuvyProject1111App.swift */; };
 		56F9A00C29917E7600E80BBD /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9A00B29917E7600E80BBD /* StartView.swift */; };
 		56F9A00E29917E7700E80BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F9A00D29917E7700E80BBD /* Assets.xcassets */; };
@@ -24,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5659CAB1299386A300D31ADA /* UserAddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddingView.swift; sourceTree = "<group>"; };
 		568C4C242991840F002E8925 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundInfoMenu.jpg; sourceTree = "<group>"; };
 		568C4C2829918E75002E8925 /* githubIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = githubIcon.png; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		56963DA929927C5B00238E54 /* vikings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vikings.jpg; sourceTree = "<group>"; };
 		56963DAB29927D2700238E54 /* gameofwords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameofwords.png; sourceTree = "<group>"; };
 		56963DAD29927EFA00238E54 /* memorize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memorize.jpg; sourceTree = "<group>"; };
+		56E6C7E62993898B0002874E /* backgroundAdding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundAdding.jpg; sourceTree = "<group>"; };
 		56F9A00629917E7600E80BBD /* xzuvyProject1111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xzuvyProject1111.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F9A00929917E7600E80BBD /* xzuvyProject1111App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzuvyProject1111App.swift; sourceTree = "<group>"; };
 		56F9A00B29917E7600E80BBD /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 				56F9A00B29917E7600E80BBD /* StartView.swift */,
 				568C4C242991840F002E8925 /* InfoView.swift */,
 				56963DA3299274B200238E54 /* MainView.swift */,
+				5659CAB1299386A300D31ADA /* UserAddingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				56963DA929927C5B00238E54 /* vikings.jpg */,
 				56963DAB29927D2700238E54 /* gameofwords.png */,
 				56963DAD29927EFA00238E54 /* memorize.jpg */,
+				56E6C7E62993898B0002874E /* backgroundAdding.jpg */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -173,6 +179,7 @@
 				56F9A00E29917E7700E80BBD /* Assets.xcassets in Resources */,
 				568C4C2B2991904C002E8925 /* gitHub.jpeg in Resources */,
 				56963DA6299275BA00238E54 /* backgroundMainMenu.jpg in Resources */,
+				56E6C7E72993898B0002874E /* backgroundAdding.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +194,7 @@
 				56963DA4299274B200238E54 /* MainView.swift in Sources */,
 				568C4C252991840F002E8925 /* InfoView.swift in Sources */,
 				56F9A00A29917E7600E80BBD /* xzuvyProject1111App.swift in Sources */,
+				5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
