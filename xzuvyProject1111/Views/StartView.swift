@@ -23,16 +23,19 @@ struct StartView: View {
                 }
                 Spacer()
                 VStack{
-                    xzuvyProjectText
+                   // xzuvyProjectText
                     loginTextField
+                        .shadow(radius: 4)
                     passwordTextField
+                        .shadow(radius: 4)
+                        .padding(.bottom)
                     loginButton
                 }
                 Spacer()
                 
             }
             
-            .background(Image("backgroundStartMenu").resizable().ignoresSafeArea(.all))
+            .background(Image("backgroundMainView").resizable().ignoresSafeArea(.all))
             .fullScreenCover(isPresented: $infoView, content: {
                 InfoView()
             })
@@ -68,6 +71,7 @@ struct StartView: View {
                 .cornerRadius(12)
                 .padding(.horizontal,70)
                 .textFieldStyle(.roundedBorder)
+                .padding(.top, 33)
         }
         
         var passwordTextField : some View{
@@ -77,14 +81,15 @@ struct StartView: View {
                 .cornerRadius(12)
                 .padding(.horizontal,70)
                 .textFieldStyle(.roundedBorder)
+                .padding(.bottom, 1)
         }
         
-        var xzuvyProjectText : some View{
-            Text("Xzuvy\nProject")
-                .font(.custom("AvenirNext-Bold", size: 40))
-                .foregroundColor(.white)
-                .shadow(radius: 4)
-        }
+//        var xzuvyProjectText : some View{
+//            Text("Xzuvy\nProject")
+//                .font(.custom("AvenirNext-Bold", size: 40))
+//                .foregroundColor(.white)
+//                .shadow(radius: 4)
+//        }
         
         var add : some View{
             Button {
@@ -93,7 +98,7 @@ struct StartView: View {
                 Image(systemName: "person.badge.plus")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 55, height: 55)
+                    .frame(width: 50, height: 35)
                     .foregroundColor(.white)
                     .padding(.horizontal)
             }
@@ -107,7 +112,7 @@ struct StartView: View {
                 Image(systemName: "info.square")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 55 , height: 55)
+                    .frame(width: 50 , height: 30)
                     .foregroundColor(.white)
                     .padding(.horizontal)
             }

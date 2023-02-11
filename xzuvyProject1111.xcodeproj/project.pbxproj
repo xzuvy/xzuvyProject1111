@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5602C89C2997CDE4009E3966 /* backgroundMainView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5602C89B2997CDE4009E3966 /* backgroundMainView.jpg */; };
 		5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659CAB1299386A300D31ADA /* UserAddingView.swift */; };
 		568C4C252991840F002E8925 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C4C242991840F002E8925 /* InfoView.swift */; };
 		568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5602C89B2997CDE4009E3966 /* backgroundMainView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundMainView.jpg; sourceTree = "<group>"; };
 		5659CAB1299386A300D31ADA /* UserAddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddingView.swift; sourceTree = "<group>"; };
 		568C4C242991840F002E8925 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundInfoMenu.jpg; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				56963DAB29927D2700238E54 /* gameofwords.png */,
 				56963DAD29927EFA00238E54 /* memorize.jpg */,
 				56E6C7E62993898B0002874E /* backgroundAdding.jpg */,
+				5602C89B2997CDE4009E3966 /* backgroundMainView.jpg */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				56963DAA29927C5B00238E54 /* vikings.jpg in Resources */,
 				568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */,
+				5602C89C2997CDE4009E3966 /* backgroundMainView.jpg in Resources */,
 				56963DAC29927D2700238E54 /* gameofwords.png in Resources */,
 				56963DAE29927EFA00238E54 /* memorize.jpg in Resources */,
 				56F9A01129917E7700E80BBD /* Preview Assets.xcassets in Resources */,
