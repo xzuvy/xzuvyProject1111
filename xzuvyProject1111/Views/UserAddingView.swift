@@ -12,18 +12,19 @@ struct UserAddingView: View {
     @State var password = ""
     @State var home = false
     var body: some View {
-        ZStack{
+        
             VStack{
+                
                 Spacer()
-                Text("Регистрация")
-                    .foregroundColor(.white)
-                    .font(.custom("AvenirNext-Bold", size: 40).bold())
-                    .shadow(radius: 15)
-                    .padding()
                 loginTextField
+                    .padding(.top)
+                    //.position(x : 210 , y : 370 )
                 passwordTextField
+                    .padding(.bottom)
+                    //.position(x : 210 , y : 90 )
                 createButton
-                Spacer()
+                    //.position(x : 210, y : 10)
+                
                 HStack{
                     homeButton
                     Spacer()
@@ -31,8 +32,8 @@ struct UserAddingView: View {
                 
                 
             }
-        }
-        .background(Image("backgroundAdding"))
+        
+            .background(Image("backgroundRegistration").resizable().ignoresSafeArea(.all))
         .fullScreenCover(isPresented: $home) {
             StartView()
         }
@@ -46,8 +47,10 @@ struct UserAddingView: View {
             .font(.title2.bold())
             .background(.white)
             .cornerRadius(12)
-            .padding(.horizontal,80)
+            .padding(.horizontal,100)
             .textFieldStyle(.roundedBorder)
+            .position(x : 210 , y : 350 )
+            
         
         
     }
@@ -57,8 +60,9 @@ struct UserAddingView: View {
             .font(.title2.bold())
             .background(.white)
             .cornerRadius(12)
-            .padding(.horizontal,80)
+            .padding(.horizontal,100)
             .textFieldStyle(.roundedBorder)
+            .position(x : 210 , y : 159 )
     }
     
     var createButton : some View{
@@ -72,6 +76,7 @@ struct UserAddingView: View {
                 .background(.white)
                 .cornerRadius(25)
                 .padding()
+                .position(x : 210, y : -10)
                 
             
         }
@@ -87,6 +92,7 @@ struct UserAddingView: View {
                 .frame(width: 40, height: 40)
                 .foregroundColor(.white)
                 .padding()
+            
         }
 
     }
