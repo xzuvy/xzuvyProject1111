@@ -12,24 +12,27 @@ struct MainView: View {
     var body: some View {
         ZStack{
             VStack{
-                Text("Список возможностей")
-                    .font(.custom("AvenirNext-Bold", size: 30))
-                    .foregroundColor(.white)
-                HStack{
-    
+                
+                VStack{
+                    
                     charactersOfSerial
+                        .position(x : 210 , y : 160)
                     gameOfWords
+                        .position(x :210, y : 240 )
                     memorizeGame
+                        .position(x : 210, y : 320)
                 }
                 Spacer()
                 HStack{
                     homeButton
-                    Spacer()
+                        .position(x : 55 , y : 385)
+                    
                     infoButton
+                        .position(x : 147, y : 385)
                 }
             }
         }
-        .background(Image("backgroundMainMenu"))
+        .background(Image("mainView").resizable().ignoresSafeArea(.all))
         .fullScreenCover(isPresented: $startView) {
             StartView()
         }
@@ -42,8 +45,9 @@ struct MainView: View {
                     print("")
                 } label: {
                     Image("vikings")
+                        
                         .resizable()
-                        .frame(width: 100 , height: 100)
+                        .frame(width: 95 , height: 95)
                         .padding()
 
                 }
@@ -59,7 +63,7 @@ struct MainView: View {
         } label: {
             Image("gameofwords")
                 .resizable()
-                .frame(width: 100 ,height: 100)
+                .frame(width: 95 ,height: 95)
                 .padding()
             
         }
@@ -72,7 +76,7 @@ struct MainView: View {
         } label: {
             Image("memorize")
                 .resizable()
-                .frame(width: 100,height: 100)
+                .frame(width: 95,height: 95)
                 .padding()
         }
 

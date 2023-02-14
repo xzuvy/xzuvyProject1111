@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5602C89C2997CDE4009E3966 /* backgroundMainView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5602C89B2997CDE4009E3966 /* backgroundMainView.jpg */; };
+		561B9BFA299BD8A100CCFD7B /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 561B9BF8299BD8A100CCFD7B /* Raleway-VariableFont_wght.ttf */; };
+		561B9BFB299BD8A100CCFD7B /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 561B9BF9299BD8A100CCFD7B /* Raleway-Italic-VariableFont_wght.ttf */; };
 		5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659CAB1299386A300D31ADA /* UserAddingView.swift */; };
 		568C4C252991840F002E8925 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C4C242991840F002E8925 /* InfoView.swift */; };
 		568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */; };
@@ -28,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		5602C89B2997CDE4009E3966 /* backgroundMainView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundMainView.jpg; sourceTree = "<group>"; };
+		561B9BF8299BD8A100CCFD7B /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		561B9BF9299BD8A100CCFD7B /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		561B9BFC299BD91400CCFD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5659CAB1299386A300D31ADA /* UserAddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddingView.swift; sourceTree = "<group>"; };
 		568C4C242991840F002E8925 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundInfoMenu.jpg; sourceTree = "<group>"; };
@@ -63,6 +68,8 @@
 			children = (
 				56F9A00B29917E7600E80BBD /* StartView.swift */,
 				568C4C242991840F002E8925 /* InfoView.swift */,
+				561B9BF9299BD8A100CCFD7B /* Raleway-Italic-VariableFont_wght.ttf */,
+				561B9BF8299BD8A100CCFD7B /* Raleway-VariableFont_wght.ttf */,
 				56963DA3299274B200238E54 /* MainView.swift */,
 				5659CAB1299386A300D31ADA /* UserAddingView.swift */,
 			);
@@ -88,6 +95,7 @@
 		56F9A00829917E7600E80BBD /* xzuvyProject1111 */ = {
 			isa = PBXGroup;
 			children = (
+				561B9BFC299BD91400CCFD7B /* Info.plist */,
 				56F9A00929917E7600E80BBD /* xzuvyProject1111App.swift */,
 				56F9A00D29917E7700E80BBD /* Assets.xcassets */,
 				568C4C23299181E5002E8925 /* Views */,
@@ -176,8 +184,10 @@
 				568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */,
 				5602C89C2997CDE4009E3966 /* backgroundMainView.jpg in Resources */,
 				56963DAC29927D2700238E54 /* gameofwords.png in Resources */,
+				561B9BFA299BD8A100CCFD7B /* Raleway-VariableFont_wght.ttf in Resources */,
 				56963DAE29927EFA00238E54 /* memorize.jpg in Resources */,
 				56F9A01129917E7700E80BBD /* Preview Assets.xcassets in Resources */,
+				561B9BFB299BD8A100CCFD7B /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
 				56F9A01A29917F8900E80BBD /* backgroundStartMenu.jpg in Resources */,
 				568C4C2929918E75002E8925 /* githubIcon.png in Resources */,
 				56F9A00E29917E7700E80BBD /* Assets.xcassets in Resources */,
@@ -330,6 +340,7 @@
 				DEVELOPMENT_TEAM = VV9Y63H9BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xzuvyProject1111/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +370,7 @@
 				DEVELOPMENT_TEAM = VV9Y63H9BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xzuvyProject1111/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
