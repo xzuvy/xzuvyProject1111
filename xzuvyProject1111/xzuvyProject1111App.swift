@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct xzuvyProject1111App: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             StartView()
