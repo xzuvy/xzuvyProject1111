@@ -9,15 +9,16 @@ import SwiftUI
 
 struct MainView: View {
     @State var startView = false
+    @State var gameWords = false
     var body: some View {
         ZStack{
             VStack{
                 
                 VStack{
                     
-                    charactersOfSerial
-                        .position(x : 210 , y : 160)
                     gameOfWords
+                        .position(x : 210 , y : 160)
+                    charactersOfSerial
                         .position(x :210, y : 240 )
                     memorizeGame
                         .position(x : 210, y : 320)
@@ -36,15 +37,19 @@ struct MainView: View {
         .fullScreenCover(isPresented: $startView) {
             StartView()
         }
+        .fullScreenCover(isPresented: $gameWords) {
+            WordsStartView()
+        }
+
         
     }
     
-    var charactersOfSerial : some View{
+    var gameOfWords : some View{
         VStack{
                 Button {
-                    print("")
+                    gameWords.toggle()
                 } label: {
-                    Image("vikings")
+                    Image("gameofwords")
                         
                         .resizable()
                         .frame(width: 95 , height: 95)
@@ -57,11 +62,11 @@ struct MainView: View {
 
     }
     
-    var gameOfWords : some View{
+    var charactersOfSerial : some View{
         Button {
             print("something")
         } label: {
-            Image("gameofwords")
+            Image("vikings")
                 .resizable()
                 .frame(width: 95 ,height: 95)
                 .padding()

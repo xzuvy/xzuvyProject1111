@@ -8,6 +8,28 @@
 import SwiftUI
 import Firebase
 
+struct SecureTextFieldStartView : View{
+    @State var isSecureFieldStart = true
+    @Binding  var textSecure : String
+    
+    var body: some View{
+        HStack{
+            if isSecureFieldStart {
+                SecureField("PASSWORD", text: $textSecure)
+            } else {
+                TextField(textSecure, text: $textSecure)
+            }
+        }
+        .overlay(alignment : .trailing){
+            Image(systemName: isSecureFieldStart ? "eye.slash": "eye")
+                .onTapGesture {
+                    isSecureFieldStart.toggle()
+                }
+        }
+    }
+}
+
+
 struct StartView: View {
     @State var login = ""
     @State var password = ""
@@ -86,7 +108,7 @@ struct StartView: View {
     }
     
     var loginTextField : some View{
-        TextField("LOGIN...", text: $login)
+        TextField("EMAIL", text: $login)
             .font(.title2)
             .background(.white)
             .cornerRadius(12)
@@ -96,7 +118,7 @@ struct StartView: View {
     }
     
     var passwordTextField : some View{
-        TextField("PASSWORD...", text: $password)
+        SecureTextFieldStartView(textSecure : $password)
             .font(.title2)
             .background(.white)
             .cornerRadius(12)
@@ -104,14 +126,6 @@ struct StartView: View {
             .textFieldStyle(.roundedBorder)
             .padding(.bottom, 1)
     }
-    
-    //        var xzuvyProjectText : some View{
-    //            Text("Xzuvy\nProject")
-    //                .font(.custom("AvenirNext-Bold", size: 40))
-    //                .foregroundColor(.white)
-    //                .shadow(radius: 4)
-    //        }
-    
     var add : some View{
         Button {
             userAddView.toggle()
