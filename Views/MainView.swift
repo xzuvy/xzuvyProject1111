@@ -10,6 +10,7 @@ import SwiftUI
 struct MainView: View {
     @State var startView = false
     @State var gameWords = false
+    @State var memorizeGameView = false
     var body: some View {
         ZStack{
             VStack{
@@ -18,9 +19,9 @@ struct MainView: View {
                     
                     gameOfWords
                         .position(x : 210 , y : 160)
-                    charactersOfSerial
-                        .position(x :210, y : 240 )
                     memorizeGame
+                        .position(x : 210, y : 240 )
+                    charactersOfSerial
                         .position(x : 210, y : 320)
                 }
                 Spacer()
@@ -40,26 +41,29 @@ struct MainView: View {
         .fullScreenCover(isPresented: $gameWords) {
             WordsStartView()
         }
-
+        .fullScreenCover(isPresented: $memorizeGameView) {
+            MemorizeView()
+        }
+        
         
     }
     
     var gameOfWords : some View{
         VStack{
-                Button {
-                    gameWords.toggle()
-                } label: {
-                    Image("gameofwords")
-                        
-                        .resizable()
-                        .frame(width: 95 , height: 95)
-                        .padding()
-
-                }
-
+            Button {
+                gameWords.toggle()
+            } label: {
+                Image("gameofwords")
+                
+                    .resizable()
+                    .frame(width: 95 , height: 95)
+                    .padding()
+                
+            }
+            
         }
         
-
+        
     }
     
     var charactersOfSerial : some View{
@@ -72,19 +76,19 @@ struct MainView: View {
                 .padding()
             
         }
-
+        
     }
     
     var memorizeGame : some View{
         Button {
-            print("something")
+            memorizeGameView.toggle()
         } label: {
             Image("memorize")
                 .resizable()
                 .frame(width: 95,height: 95)
                 .padding()
         }
-
+        
     }
     
     var homeButton : some View{
@@ -111,7 +115,7 @@ struct MainView: View {
                 .padding()
         }
     }
-
+    
 }
 
 struct MainView_Previews: PreviewProvider {

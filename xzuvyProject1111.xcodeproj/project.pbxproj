@@ -18,6 +18,9 @@
 		563580CC299F9966009B9CDE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 563580CB299F9966009B9CDE /* FirebaseFirestore */; };
 		563580CE299F9B7D009B9CDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 563580CD299F9B7D009B9CDE /* GoogleService-Info.plist */; };
 		563580D129A27FE7009B9CDE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563580D029A27FE7009B9CDE /* AuthService.swift */; };
+		563CAB7B29A901B500DA858F /* MemorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7A29A901B500DA858F /* MemorizeView.swift */; };
+		563CAB7D29A901D300DA858F /* MemorizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7C29A901D300DA858F /* MemorizeModel.swift */; };
+		563CAB7F29A9063D00DA858F /* MemorizeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */; };
 		564F954029A687B700C90C4D /* MakeAWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F953F29A687B700C90C4D /* MakeAWordsView.swift */; };
 		564F954229A687FB00C90C4D /* MakeAWordsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */; };
 		564F954529A6884E00C90C4D /* WordsViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954429A6884E00C90C4D /* WordsViewModule.swift */; };
@@ -52,6 +55,9 @@
 		563580C6299E7DE3009B9CDE /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		563580CD299F9B7D009B9CDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		563580D029A27FE7009B9CDE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		563CAB7A29A901B500DA858F /* MemorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeView.swift; sourceTree = "<group>"; };
+		563CAB7C29A901D300DA858F /* MemorizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeModel.swift; sourceTree = "<group>"; };
+		563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeCardView.swift; sourceTree = "<group>"; };
 		564F953F29A687B700C90C4D /* MakeAWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsView.swift; sourceTree = "<group>"; };
 		564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsGameView.swift; sourceTree = "<group>"; };
 		564F954429A6884E00C90C4D /* WordsViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModule.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 				563580C4299E7DC2009B9CDE /* Item.swift */,
 				563580C6299E7DE3009B9CDE /* Group.swift */,
 				564F954729A6889D00C90C4D /* WordsPlayer.swift */,
+				563CAB7C29A901D300DA858F /* MemorizeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +147,8 @@
 				5659CAB1299386A300D31ADA /* UserAddingView.swift */,
 				564F953F29A687B700C90C4D /* MakeAWordsView.swift */,
 				564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */,
+				563CAB7A29A901B500DA858F /* MemorizeView.swift */,
+				563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,9 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563CAB7B29A901B500DA858F /* MemorizeView.swift in Sources */,
 				564F954529A6884E00C90C4D /* WordsViewModule.swift in Sources */,
 				563580C7299E7DE3009B9CDE /* Group.swift in Sources */,
 				56F9A00C29917E7600E80BBD /* StartView.swift in Sources */,
+				563CAB7F29A9063D00DA858F /* MemorizeCardView.swift in Sources */,
 				564F954229A687FB00C90C4D /* MakeAWordsGameView.swift in Sources */,
 				564F954829A6889D00C90C4D /* WordsPlayer.swift in Sources */,
 				56963DA4299274B200238E54 /* MainView.swift in Sources */,
@@ -299,6 +310,7 @@
 				563580C5299E7DC2009B9CDE /* Item.swift in Sources */,
 				564F954D29A6891B00C90C4D /* TitleText.swift in Sources */,
 				5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */,
+				563CAB7D29A901D300DA858F /* MemorizeModel.swift in Sources */,
 				564F954B29A688F500C90C4D /* BigWordTextField.swift in Sources */,
 				564F954F29A6893C00C90C4D /* WordCell.swift in Sources */,
 				563580D129A27FE7009B9CDE /* AuthService.swift in Sources */,
