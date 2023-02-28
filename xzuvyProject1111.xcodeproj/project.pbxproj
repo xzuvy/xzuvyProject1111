@@ -21,6 +21,8 @@
 		563CAB7B29A901B500DA858F /* MemorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7A29A901B500DA858F /* MemorizeView.swift */; };
 		563CAB7D29A901D300DA858F /* MemorizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7C29A901D300DA858F /* MemorizeModel.swift */; };
 		563CAB7F29A9063D00DA858F /* MemorizeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */; };
+		5646386029AE816700FFD06E /* CharacterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5646385F29AE816700FFD06E /* CharacterModule.swift */; };
+		5646386229AE88F600FFD06E /* VikingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5646386129AE88F600FFD06E /* VikingsDetailView.swift */; };
 		564F954029A687B700C90C4D /* MakeAWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F953F29A687B700C90C4D /* MakeAWordsView.swift */; };
 		564F954229A687FB00C90C4D /* MakeAWordsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */; };
 		564F954529A6884E00C90C4D /* WordsViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954429A6884E00C90C4D /* WordsViewModule.swift */; };
@@ -29,6 +31,7 @@
 		564F954D29A6891B00C90C4D /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954C29A6891B00C90C4D /* TitleText.swift */; };
 		564F954F29A6893C00C90C4D /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954E29A6893C00C90C4D /* WordCell.swift */; };
 		5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659CAB1299386A300D31ADA /* UserAddingView.swift */; };
+		566780C129AE6E5C0082745F /* VikingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566780C029AE6E5C0082745F /* VikingsView.swift */; };
 		568C4C252991840F002E8925 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C4C242991840F002E8925 /* InfoView.swift */; };
 		568C4C27299185F4002E8925 /* backgroundInfoMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */; };
 		568C4C2929918E75002E8925 /* githubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 568C4C2829918E75002E8925 /* githubIcon.png */; };
@@ -58,6 +61,8 @@
 		563CAB7A29A901B500DA858F /* MemorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeView.swift; sourceTree = "<group>"; };
 		563CAB7C29A901D300DA858F /* MemorizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeModel.swift; sourceTree = "<group>"; };
 		563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeCardView.swift; sourceTree = "<group>"; };
+		5646385F29AE816700FFD06E /* CharacterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModule.swift; sourceTree = "<group>"; };
+		5646386129AE88F600FFD06E /* VikingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingsDetailView.swift; sourceTree = "<group>"; };
 		564F953F29A687B700C90C4D /* MakeAWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsView.swift; sourceTree = "<group>"; };
 		564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsGameView.swift; sourceTree = "<group>"; };
 		564F954429A6884E00C90C4D /* WordsViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModule.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		564F954C29A6891B00C90C4D /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		564F954E29A6893C00C90C4D /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
 		5659CAB1299386A300D31ADA /* UserAddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddingView.swift; sourceTree = "<group>"; };
+		566780C029AE6E5C0082745F /* VikingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingsView.swift; sourceTree = "<group>"; };
 		568C4C242991840F002E8925 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		568C4C26299185F4002E8925 /* backgroundInfoMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundInfoMenu.jpg; sourceTree = "<group>"; };
 		568C4C2829918E75002E8925 /* githubIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = githubIcon.png; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 				563580C6299E7DE3009B9CDE /* Group.swift */,
 				564F954729A6889D00C90C4D /* WordsPlayer.swift */,
 				563CAB7C29A901D300DA858F /* MemorizeModel.swift */,
+				5646385F29AE816700FFD06E /* CharacterModule.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +156,8 @@
 				564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */,
 				563CAB7A29A901B500DA858F /* MemorizeView.swift */,
 				563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */,
+				566780C029AE6E5C0082745F /* VikingsView.swift */,
+				5646386129AE88F600FFD06E /* VikingsDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,11 +315,14 @@
 				564F954829A6889D00C90C4D /* WordsPlayer.swift in Sources */,
 				56963DA4299274B200238E54 /* MainView.swift in Sources */,
 				568C4C252991840F002E8925 /* InfoView.swift in Sources */,
+				5646386229AE88F600FFD06E /* VikingsDetailView.swift in Sources */,
+				566780C129AE6E5C0082745F /* VikingsView.swift in Sources */,
 				56F9A00A29917E7600E80BBD /* xzuvyProject1111App.swift in Sources */,
 				563580C5299E7DC2009B9CDE /* Item.swift in Sources */,
 				564F954D29A6891B00C90C4D /* TitleText.swift in Sources */,
 				5659CAB2299386A300D31ADA /* UserAddingView.swift in Sources */,
 				563CAB7D29A901D300DA858F /* MemorizeModel.swift in Sources */,
+				5646386029AE816700FFD06E /* CharacterModule.swift in Sources */,
 				564F954B29A688F500C90C4D /* BigWordTextField.swift in Sources */,
 				564F954F29A6893C00C90C4D /* WordCell.swift in Sources */,
 				563580D129A27FE7009B9CDE /* AuthService.swift in Sources */,

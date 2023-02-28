@@ -11,6 +11,7 @@ struct MainView: View {
     @State var startView = false
     @State var gameWords = false
     @State var memorizeGameView = false
+    @State var vikingsView = false
     var body: some View {
         ZStack{
             VStack{
@@ -45,6 +46,9 @@ struct MainView: View {
             MemorizeView()
         }
         
+        .fullScreenCover(isPresented: $vikingsView) {
+            VikingsView()
+        }
         
     }
     
@@ -68,7 +72,7 @@ struct MainView: View {
     
     var charactersOfSerial : some View{
         Button {
-            print("something")
+            vikingsView.toggle()
         } label: {
             Image("vikings")
                 .resizable()
