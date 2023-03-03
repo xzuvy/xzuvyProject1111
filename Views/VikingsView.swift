@@ -10,6 +10,7 @@ import SwiftUI
 struct VikingsView: View {
     
     @State var mainView = false
+    @State var addingViking = false
     
     var body: some View {
         NavigationView{
@@ -40,12 +41,28 @@ struct VikingsView: View {
                     }
 
                 }
+                
+                ToolbarItem(placement: .navigationBarTrailing){
+                    Button {
+                        addingViking.toggle()
+                    } label: {
+                        Image(systemName: "plus.circle")
+                            .resizable()
+                            .foregroundColor(.black)
+                            .frame(width: 40 , height: 40)
+                            .padding(.bottom)
+                    }
+
+                }
 
             }
         }
         .accentColor(Color(.white))
         .fullScreenCover(isPresented: $mainView) {
             MainView()
+        }
+        .sheet(isPresented: $addingViking) {
+            VikingsAdding(charactersss: ListOfCharacters(character: CharactersVikings(imageName: "", name: "", information: "", status: "")))
         }
 
     }

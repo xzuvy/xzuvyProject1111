@@ -23,6 +23,8 @@
 		563CAB7F29A9063D00DA858F /* MemorizeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */; };
 		5646386029AE816700FFD06E /* CharacterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5646385F29AE816700FFD06E /* CharacterModule.swift */; };
 		5646386229AE88F600FFD06E /* VikingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5646386129AE88F600FFD06E /* VikingsDetailView.swift */; };
+		564F179729B00A1C003592DD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F179629B00A1C003592DD /* ImagePicker.swift */; };
+		564F179929B00D19003592DD /* VikingsAdding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F179829B00D19003592DD /* VikingsAdding.swift */; };
 		564F954029A687B700C90C4D /* MakeAWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F953F29A687B700C90C4D /* MakeAWordsView.swift */; };
 		564F954229A687FB00C90C4D /* MakeAWordsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */; };
 		564F954529A6884E00C90C4D /* WordsViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F954429A6884E00C90C4D /* WordsViewModule.swift */; };
@@ -63,6 +65,8 @@
 		563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeCardView.swift; sourceTree = "<group>"; };
 		5646385F29AE816700FFD06E /* CharacterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModule.swift; sourceTree = "<group>"; };
 		5646386129AE88F600FFD06E /* VikingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingsDetailView.swift; sourceTree = "<group>"; };
+		564F179629B00A1C003592DD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		564F179829B00D19003592DD /* VikingsAdding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikingsAdding.swift; sourceTree = "<group>"; };
 		564F953F29A687B700C90C4D /* MakeAWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsView.swift; sourceTree = "<group>"; };
 		564F954129A687FB00C90C4D /* MakeAWordsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAWordsGameView.swift; sourceTree = "<group>"; };
 		564F954429A6884E00C90C4D /* WordsViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModule.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				564F954A29A688F500C90C4D /* BigWordTextField.swift */,
 				564F954C29A6891B00C90C4D /* TitleText.swift */,
 				564F954E29A6893C00C90C4D /* WordCell.swift */,
+				564F179629B00A1C003592DD /* ImagePicker.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				563CAB7E29A9063D00DA858F /* MemorizeCardView.swift */,
 				566780C029AE6E5C0082745F /* VikingsView.swift */,
 				5646386129AE88F600FFD06E /* VikingsDetailView.swift */,
+				564F179829B00D19003592DD /* VikingsAdding.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564F179929B00D19003592DD /* VikingsAdding.swift in Sources */,
 				563CAB7B29A901B500DA858F /* MemorizeView.swift in Sources */,
 				564F954529A6884E00C90C4D /* WordsViewModule.swift in Sources */,
 				563580C7299E7DE3009B9CDE /* Group.swift in Sources */,
@@ -313,6 +320,7 @@
 				563CAB7F29A9063D00DA858F /* MemorizeCardView.swift in Sources */,
 				564F954229A687FB00C90C4D /* MakeAWordsGameView.swift in Sources */,
 				564F954829A6889D00C90C4D /* WordsPlayer.swift in Sources */,
+				564F179729B00A1C003592DD /* ImagePicker.swift in Sources */,
 				56963DA4299274B200238E54 /* MainView.swift in Sources */,
 				568C4C252991840F002E8925 /* InfoView.swift in Sources */,
 				5646386229AE88F600FFD06E /* VikingsDetailView.swift in Sources */,
